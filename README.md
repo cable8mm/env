@@ -1,2 +1,11 @@
-# env
-Best environment files
+# Usage
+
+## .aliases
+
+Add .zshrc
+
+```sh
+source ~/.aliases
+```
+
+and make .aliases into ~/ directory
