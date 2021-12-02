@@ -38,3 +38,12 @@ function routes()
         php artisan route:list | grep ${1}
     fi
 }
+
+function port()
+{
+    if [ $# -eq 0 ]; then
+        echo 'Port need.'
+    else
+        curl http://portquiz.net:${1}
+    fi
+}
