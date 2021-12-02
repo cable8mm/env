@@ -41,6 +41,15 @@ function routes()
         php artisan route:list | grep ${1}
     fi
 }
+
+function port()
+{
+    if [ $# -eq 0 ]; then
+        echo 'Port need.'
+    else
+        curl http://portquiz.net:${1}
+    fi
+}
 ```
 
 # Usage
@@ -54,3 +63,30 @@ source ~/.aliases
 ```
 
 and make .aliases into ~/ directory
+
+# Example
+
+## localip
+
+```sh
+➜  ~ localip
+192.168.75.228
+```
+
+## ip
+
+```sh
+➜  ~ ip
+123.123.123.123
+```
+
+## port
+
+```sh
+➜  ~ port 80
+Port 80 test successful!
+Your IP: 218.239.130.8
+
+➜  ~ port 22
+(If port 22 blocked, none)
+```
