@@ -11,6 +11,7 @@ alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias home="cd ~"
 alias sites="cd ~/Sites"
+alias "냣ㄷㄴ"="cd ~/Sites"
 alias slowquery="cd /usr/local/var/mysql/slowqueries/"
 
 # Commands
@@ -32,6 +33,7 @@ alias ppu="./vendor/bin/phpunit"
 alias art="php artisan"
 alias packagistkr="composer config -g repos.packagist composer https://packagist.kr"
 alias packagistorg="composer config -g --unset repos.packagist"
+alias valetuse="valet use; composer global update;"
 
 function routes()
 {
