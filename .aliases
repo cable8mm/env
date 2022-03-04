@@ -8,6 +8,20 @@ alias ....="cd ../../../"
 alias .....="cd ../../../../"
 alias home="cd ~"
 alias sites="cd ~/Sites"
+alias "냣ㄷㄴ"="cd ~/Sites"
+alias swifts="cd ~/Swifts"
+alias resources="cd ~/Resources"
+alias docspaces="cd ~/Workspaces/docspaces"
+alias htmlspaces="cd ~/Workspaces/htmlspace"
+alias phpspace="cd ~/Workspaces/phpspace"
+alias androids="cd ~/AndroidStudioProjects"
+alias umlspaces="cd ~/Workspaces/umlspaces"
+alias javascripts="cd ~/Javascripts"
+alias mevns="cd ~/Mevns"
+alias nexts="cd ~/Nexts"
+alias expresses="cd ~/Express"
+alias reacts="cd ~/Reacts"
+alias dalcom="cd ~/Dalcom"
 alias slowquery="cd /usr/local/var/mysql/slowqueries/"
 
 # Commands
@@ -29,6 +43,7 @@ alias ppu="./vendor/bin/phpunit"
 alias art="php artisan"
 alias packagistkr="composer config -g repos.packagist composer https://packagist.kr"
 alias packagistorg="composer config -g --unset repos.packagist"
+alias valetuse="valet use; composer global update;"
 
 function routes()
 {
